@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&family=Whisper&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   html {
+      @apply bg-black text-yellow-500;
+      @apply font-family: "Whisper", cursive;
+      font-weight: 400;
+      font-style: normal;   }
+}
